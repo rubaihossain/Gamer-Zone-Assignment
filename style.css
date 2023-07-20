@@ -432,19 +432,21 @@ footer p {
   .playing-option-image {
     width: 100%;
     /* position: relative; */
+    /* left: 70px; */
+    text-align: center;
   }
   .playing-option-image img {
     /* justify-items: center; */
-    width: 400px;
+    width: 300px;
   }
   .playing-option {
     gap: 20px;
-    padding: 0 0 0 100px;
+    padding: 0;
   }
   .playing-option .front-image {
-    width: 180px;
-    top: 255px;
-    right: 370px;
+    width: 150px;
+    top: 185px;
+    right: 260px;
   }
 
   .games {
@@ -490,6 +492,8 @@ footer p {
   .card-container {
     grid-template-columns: repeat(2, 1fr);
     text-align: center;
+    gap: 5px;
+    /* width: 80%; */
   }
   .games-card {
     padding: 0;
@@ -499,9 +503,9 @@ footer p {
   }
 
   .playing-option {
-    flex-direction: column-reverse;
+    flex-direction: column;
     padding: 0;
-    gap: 100px;
+    gap: 50px;
   }
 
   .playing-option-content {
@@ -518,6 +522,8 @@ footer p {
 
   .games {
     padding: 2px;
+    flex-wrap: wrap;
+    justify-content: center;
     padding-top: 20px;
   }
   .image-button {
@@ -526,5 +532,9 @@ footer p {
   }
   .image-button img {
     margin-right: 2px;
+  }
+
+  footer ul {
+    flex-wrap: wrap;
   }
 }
